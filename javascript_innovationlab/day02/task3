@@ -1,1 +1,16 @@
+for (let row = 1; row <= 3; row++) {
+    let line = "";
+    for (let col = 1; col <= 3; col++) {
+        line += "* ";
+    }
+    console.log(line);
+}
+console.log(); 
 
+console.log("Multiplication Table (1 to 3):");
+for (let a = 1; a <= 3; a++) {
+    for (let b = 1; b <= 3; b++) {
+        console.log(`${a} x ${b} = ${a * b}`);
+    }
+    console.log("-----");
+}
